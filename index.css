@@ -1,0 +1,79 @@
+/* There is a gap between the nav bar and body (background color shows it) */
+body {
+	color: #EBEDF3;
+	margin: 0;
+	padding: 0;
+}
+
+/*struggling for some reason to change the background font to white :) */
+.nav-link {
+	color: whitesmoke;
+}
+
+#navbarNav {
+	background-color: #6699CC;
+}
+
+.nav-item {
+	margin-left: 50px;
+	font-family: 'Pavanam', sans-serif;
+}
+
+h1,
+h2 {
+	font-weight: 400;
+	font-family: 'Bebas Neue', cursive;
+	color: #676767;
+	margin-left: 40px;
+	text-shadow: 1px 1px 1px #ccc;
+}
+
+lh {
+	font-weight: 100;
+	font-family: 'Bebas Neue', cursive;
+	color: #676767;
+	margin-left: 40px;
+	text-shadow: 1px 1px 1px #ccc;
+}
+
+
+ul {
+	margin-left: 6px;
+	float: left;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+p,
+li {
+	font-family: 'Pavanam', sans-serif;
+	font-weight: 100;
+	color: #BDBDBD;
+	margin-left: 40px;
+	padding: 2px;
+
+}
+
+.contactInfo {
+	margin-top: 14em;
+	font-family: 'Pavanam', sans-serif;
+	padding: 8px;
+}
+
+i {
+	color: #676767;
+	margin-left: 48px;
+	font-family: 'Pavanam', sans-serif;
+	padding: 8px;
+}
+
+a:link {
+	color: #BDBDBD;
+}
+
+
+/* font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Oswald', sans-serif;*/
