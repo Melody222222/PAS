@@ -69,14 +69,15 @@ li {
 	font-family: 'Pavanam', sans-serif;
 	font-weight: 100;
 	color: #BDBDBD;
-	margin-top: 20px;
-	margin-left: 48px; 
+	/* margin-top: 20px; */
+	/* margin-left: 48px;  */
 	padding: 1px;
 }
 
 .contactInfo {
-clear: both;
-	/* position:sticky; */
+	width: 300px;
+	height: 100px;  
+	vertical-align: top;
 	font-family: 'Pavanam', sans-serif;
 }
 
@@ -85,7 +86,7 @@ i {
 	/* margin-left: 42px; */
 	font-family: 'Pavanam', sans-serif;
 	padding: 2px;
-	align-content: flex-start;
+	/* align-content: flex-start; */
 }
 
 a:link {
