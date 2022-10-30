@@ -75,10 +75,10 @@ li {
 }
 
 .contactInfo {
-	margin-top: 250px; 
+	margin-top: 40px; 
 	width: 300px;
-	/* height: 200px;   */
-	vertical-align: top;
+height: 200px;  
+	vertical-align:bottom;
 	font-family: 'Pavanam', sans-serif;
 }
 
