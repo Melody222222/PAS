@@ -44,9 +44,21 @@ ul {
 	margin: 0;
 	padding: 0;
 }
+.companyInfo {
+	font-family: 'Pavanam', sans-serif;
+	font-weight: 100;
+	color: #BDBDBD;
+	margin-left: 40px;
+	padding: 2px;
+}
+.contact {
+	font-family: 'Pavanam', sans-serif;
+	font-weight: 100;
+	color: #BDBDBD;
+	/* margin-left: 40px; */
+	padding: 10px;
+}
 
-
-p,
 li {
 	font-family: 'Pavanam', sans-serif;
 	font-weight: 100;
@@ -59,14 +71,15 @@ li {
 .contactInfo {
 	margin-top: 14em;
 	font-family: 'Pavanam', sans-serif;
-	padding: 8px;
+	/* padding: 2px; */
 }
 
 i {
 	color: #676767;
-	margin-left: 48px;
+	margin-left: 42px;
 	font-family: 'Pavanam', sans-serif;
-	/* padding: 8px; */
+	padding: 6px;
+	float: left;
 }
 
 a:link {
