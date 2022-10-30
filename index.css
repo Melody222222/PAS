@@ -1,31 +1,35 @@
-/* There is a gap between the nav bar and body (background color shows it) */
 body {
 	color: #EBEDF3;
 	margin: 0;
 	padding: 0;
 }
 
-/*struggling for some reason to change the background font to white :) */
-.nav-link {
-	color: whitesmoke;
-}
-
-#navbarNav {
+.btn-group {
+	font-family: 'Bebas Neue', cursive;
 	background-color: #6699CC;
+	color: #EBEDF3;
+	height: 36px;
+	margin-left: 44px;
+	margin-top: 8px;
+} 
+
+p {
+	font-weight: 200;
+	font-family: 'Bebas Neue', cursive;
+	color: #676767;
+	margin-left: 48px;
+} 
+
+.coDetails {
+	margin-top: 20px;
 }
 
-.nav-item {
-	margin-left: 50px;
-	font-family: 'Pavanam', sans-serif;
-}
-
-h1,
-h2 {
-	font-weight: 400;
+h1 {
+	font-weight: lighter;
 	font-family: 'Bebas Neue', cursive;
 	color: #676767;
 	margin-left: 40px;
-	text-shadow: 1px 1px 1px #ccc;
+	/* text-shadow: 1px 1px 1px #ccc;  unsure of this style for header etc.*/
 }
 
 lh {
@@ -36,27 +40,12 @@ lh {
 	text-shadow: 1px 1px 1px #ccc;
 }
 
-
 ul {
 	margin-left: 6px;
 	float: left;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-}
-.companyInfo {
-	font-family: 'Pavanam', sans-serif;
-	font-weight: 100;
-	color: #BDBDBD;
-	margin-left: 40px;
-	padding: 2px;
-}
-.contact {
-	font-family: 'Pavanam', sans-serif;
-	font-weight: 100;
-	color: #BDBDBD;
-	/* margin-left: 40px; */
-	padding: 10px;
 }
 
 li {
@@ -68,18 +57,34 @@ li {
 
 }
 
+.companyInfo {
+	font-family: 'Pavanam', sans-serif;
+	font-weight: 100;
+	color: #BDBDBD;
+	margin-left: 40px;
+	padding: 2px;
+}
+
+.contact {
+	font-family: 'Pavanam', sans-serif;
+	font-weight: 100;
+	color: #BDBDBD;
+	margin-top: 20px;
+	margin-left: 48px; 
+	padding: 1px;
+}
+
 .contactInfo {
-	margin-top: 16em;
+margin-top: 18%;
 	position: absolute;
 	font-family: 'Pavanam', sans-serif;
-	/* padding: 2px; */
 }
 
 i {
 	color: #676767;
-	margin-left: 42px;
+	/* margin-left: 42px; */
 	font-family: 'Pavanam', sans-serif;
-	padding: 6px;
+	padding: 2px;
 	float: left;
 }
 
