@@ -75,7 +75,7 @@ li {
 }
 
 .contactInfo {
-margin-top: 18%;
+margin-top: 24%;
 	position:sticky;
 	font-family: 'Pavanam', sans-serif;
 }
@@ -85,7 +85,7 @@ i {
 	/* margin-left: 42px; */
 	font-family: 'Pavanam', sans-serif;
 	padding: 2px;
-	float: left;
+	align-content: flex-start;
 }
 
 a:link {
