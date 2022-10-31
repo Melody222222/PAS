@@ -1,108 +1,109 @@
 body {
-	color: #EBEDF3;
-	margin: 0;
-	padding: 1%;
-	/* min-width: 640px; */
+	background-image: url("./images/backgroundPlaceholder.png");
+	background-repeat: no-repeat;
+	background-size: 1300px;
+	background-color: #85AED0 !important;
+	color: #fff;
+	line-height: 1.6;
+	text-align: center;
+	
 }
 
-.btn-group {
-	font-family: 'Bebas Neue', cursive;
-	background-color: #6699CC;
-	color: #EBEDF3;
-	height: 36px;
-	margin-left: 44px;
-	margin-top: 8px;
-	margin-bottom: 6px;
-} 
+.coDetails {
+	color:#88B0D7;
+	background-color:  #003B6D;
+	text-align: center;
+}
 
-p {
+.companyInfo {
 	font-weight: 200;
 	font-family: 'Bebas Neue', cursive;
-	color: #676767;
-	margin-left: 40px;
+	color: lightgrey;
+	margin-left: 4px;
+	/* text-align: center; */
+	/* margin-left: 40px; */
+	
 } 
 
 h1 {
 	font-weight: lighter;
 	font-family: 'Bebas Neue', cursive;
-	color: #676767;
-	margin-left: 40px;
+	color: whitesmoke;
+	text-align: center;
+	/* margin-left: 30px; */
+	background-color:  #003B6D;
 	/* text-shadow: 1px 1px 1px #ccc;  unsure of this style for header etc.*/
 }
 
 lh {
 	font-weight: 100;
 	font-family: 'Bebas Neue', cursive;
-	color: #676767;
+	color: whitesmoke;
 	margin-left: 2px;
-	text-shadow: 1px 1px 1px #ccc;
-	/* max-width: 100%;  */
-	/* display: block;*/
+	text-align: center;
+	/* text-shadow: 1px 1px 1px lightgrey; */
+	
 } 
 
 ul {
-	margin-left: 2px;
-	float: left;
-	list-style-type: none;
-	margin: 2px;
-	
+	text-align: center;
+	list-style-type: none;	
 }
 
 li {
 	list-style-type: none;
 	font-family: 'Pavanam', sans-serif;
-	font-weight: 100;
-	color: #BDBDBD;
-	margin-left: 2px;
-	padding: 2px;
-
+	font-weight: bold;
+	color: black;	
+	text-align: center;
 }
 
 .info {
 	font-family: 'Pavanam', sans-serif;
 	font-weight: 100;
 	color: #BDBDBD;
-	margin-left: 20px;
-	padding: 1px;
+	/* margin-left: 20px;	 */
+	text-align: center;
 }
 
 .contact {
-	/* min-width: 640px; */
 	width: fit-content;
 	font-family: 'Pavanam', sans-serif;
 	font-weight: 100;
-	color: #BDBDBD;
-	/* margin-top: 20px;  */
-	/* margin-left: 48px;  */
+	color: #003B6D;
 	padding: 1px;
-	vertical-align:bottom;
+	text-align: center;
+	
+	/* vertical-align:bottom; */
 }
 
 .contactInfo {
-	/* vertical-align:bottom; */
-	/* float: left; */
-	/* min-width: 640px;  */
-	margin-top: 240px; 
-
-	
-	
-
+	/* margin-top: 240px;  */
 	font-family: 'Pavanam', sans-serif;
+	/* text-align: center; */
+	align-items:center;
+	justify-content: center;
+	display: flex;
 }
 
 i {
-	color: #676767;
-	
+	color:#2F4F4F;
 	font-family: 'Pavanam', sans-serif;
-	padding: 1px;
-	/* align-content: flex-start; */
+	padding: 1px;	
 }
 
 a:link {
-	color: #BDBDBD;
+	color:#2F4F4F;
 }
 
 
 /* font-family: 'Alfa Slab One', cursive;
 font-family: 'Bebas Neue', cursive;
-font-family: 'Oswald', sans-serif;*/
+font-family: 'Oswald', sans-serif;
+Photo by <a href="https://unsplash.com/@homajob?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Scott Graham</a> on <a href="https://unsplash.com/s/photos/taxes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  Photo by <a href="https://unsplash.com/@micheile?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">micheile dot com</a> on <a href="https://unsplash.com/s/photos/calculator?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  Photo by <a href="https://unsplash.com/@micheile?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">micheile dot com</a> on <a href="https://unsplash.com/s/photos/calculator?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  Photo by <a href="https://unsplash.com/@towfiqu999999?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Towfiqu barbhuiya</a> on <a href="https://unsplash.com/s/photos/calculator?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  Photo by <a href="https://unsplash.com/@fin21?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">FIN</a> on <a href="https://unsplash.com/s/photos/calculator?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  Photo by <a href="https://unsplash.com/@fin21?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">FIN</a> on <a href="https://unsplash.com/s/photos/calculator?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  */
