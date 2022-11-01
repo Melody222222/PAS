@@ -1,5 +1,5 @@
 body {
-	background-image: url("./images/backgroundPlaceholder.png");
+	background-image: url("./images/backgroundplaceholder.png");
 	background-repeat: no-repeat;
 	background-size: 1300px;
 	background-color: #85AED0 !important;
@@ -20,9 +20,7 @@ body {
 	font-family: 'Bebas Neue', cursive;
 	color: lightgrey;
 	margin-left: 4px;
-	/* text-align: center; */
-	/* margin-left: 40px; */
-	
+	/* text-align: center; */	
 } 
 
 h1 {
@@ -30,7 +28,6 @@ h1 {
 	font-family: 'Bebas Neue', cursive;
 	color: whitesmoke;
 	text-align: center;
-	/* margin-left: 30px; */
 	background-color:  #003B6D;
 	/* text-shadow: 1px 1px 1px #ccc;  unsure of this style for header etc.*/
 }
@@ -41,59 +38,58 @@ lh {
 	color: whitesmoke;
 	margin-left: 2px;
 	text-align: center;
-	/* text-shadow: 1px 1px 1px lightgrey; */
-	
+	text-shadow: 1px 1px 1px black;	
 } 
 
 ul {
 	text-align: center;
 	list-style-type: none;	
+	padding: 1px;		
 }
 
 li {
 	list-style-type: none;
 	font-family: 'Pavanam', sans-serif;
-	font-weight: bold;
+	font-weight:900;
 	color: black;	
-	text-align: center;
+	text-shadow: 1px 1px 1px #ccc;
+	text-align: center; 
+	padding: 1px;	
 }
 
 .info {
 	font-family: 'Pavanam', sans-serif;
 	font-weight: 100;
 	color: #BDBDBD;
-	/* margin-left: 20px;	 */
-	text-align: center;
+	padding: 1px;	
 }
 
 .contact {
-	width: fit-content;
 	font-family: 'Pavanam', sans-serif;
-	font-weight: 100;
+	font-weight: 200;
 	color: #003B6D;
-	padding: 1px;
-	text-align: center;
-	
-	/* vertical-align:bottom; */
+	padding: 1px;	
 }
 
 .contactInfo {
-	/* margin-top: 240px;  */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 	font-family: 'Pavanam', sans-serif;
-	/* text-align: center; */
-	align-items:center;
-	justify-content: center;
-	display: flex;
+	font-weight: bold;
+	color:#003B6D;
 }
 
 i {
-	color:#2F4F4F;
+	color:#003B6D;
 	font-family: 'Pavanam', sans-serif;
 	padding: 1px;	
 }
 
 a:link {
-	color:#2F4F4F;
+	color:#003B6D;
 }
 
 
