@@ -1,7 +1,7 @@
 body {
 	background-image: url("./images/backgroundplaceholder.png");
 	background-repeat: no-repeat;
-	background-size: 1300px;
+	background-size: 1280px;
 	background-color: #85AED0 !important;
 	color: #fff;
 	line-height: 1.6;
@@ -19,8 +19,7 @@ body {
 	font-weight: 200;
 	font-family: 'Bebas Neue', cursive;
 	color: lightgrey;
-	margin-left: 4px;
-	/* text-align: center; */	
+	margin-left: 4px;	
 } 
 
 h1 {
@@ -29,7 +28,6 @@ h1 {
 	color: whitesmoke;
 	text-align: center;
 	background-color:  #003B6D;
-	/* text-shadow: 1px 1px 1px #ccc;  unsure of this style for header etc.*/
 }
 
 lh {
